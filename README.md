@@ -11,6 +11,7 @@ This project aims to develop an accurate deep learning model to identify three b
 - [Evaluation](#evaluation)
 - [Prediction](#prediction)
 - [Usage](#usage)
+- [Streamlit Web Application](#streamlit)
 
 ## Introduction
 Birds are indicators of environmental quality, and monitoring their presence and diversity is crucial for conservation efforts. This project involves creating a deep learning model to identify bird species from audio recordings, which can aid in biodiversity monitoring and conservation.
@@ -54,3 +55,8 @@ To use the model for predicting bird species from an audio file:
 1. Place the audio file in the appropriate directory.
 2. Run the prediction script with the audio file path as an argument.
 3. The model will output the predicted bird species.
+
+## Streamlit Web Application
+To use the pre-trained model and get the predictions:
+1. Open the terminal in the same directory.
+2. Run the command 'streamlit run app.py'.
